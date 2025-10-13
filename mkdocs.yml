@@ -1,0 +1,93 @@
+# mkdocs.yml - EPMware Documentation Homepage
+site_name: EPMware Documentation
+site_description: Central hub for all EPMware documentation and guides
+site_author: EPMware, Inc.
+site_url: https://docs.epmware.com/  # Update with your actual domain
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+  
+  logo: assets/images/epmware-logo.png
+  favicon: assets/images/favicon.ico
+
+extra_css:
+  - assets/css/custom.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - search:
+      lang: en
+
+# Simplified navigation for documentation home
+nav:
+  - Home: index.md
+  - Documentation Guides: 
+    - guides.md
+  - Quick Links:
+    - Administrator's Guide: https://admin-guide.epmware.com/
+    - User Guide: https://user-guide.epmware.com/
+    - Logic Builder Guide: https://logic-builder-guide.epmware.com/
+  - Resources:
+    - resources.md
+  - Support:
+    - support.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.epmware.com
+      name: EPMware Website
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@epmware.com
+      name: Email Support
+    - icon: fontawesome/solid/phone
+      link: tel:408-614-0442
+      name: Call Support
+  
+  copyright: |
+    © 2025 EPMware, Inc. All rights reserved. | 
+    <a href="https://www.epmware.com">www.epmware.com</a> | 
+    408-614-0442

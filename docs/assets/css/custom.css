@@ -1,0 +1,269 @@
+/* custom.css - EPMware Documentation Homepage Styling */
+
+/* EPMware brand colors - matching other guides */
+:root {
+  --epmware-blue: #1976d2;
+  --epmware-orange: #ff9800;
+  --epmware-light-blue: #e3f2fd;
+  --epmware-dark-blue: #0d47a1;
+  --epmware-light-orange: #fff3e0;
+  --epmware-code-bg: #f5f5f5;
+  --epmware-code-border: #ddd;
+}
+
+/* Hero section styling */
+.md-typeset h1 {
+  color: var(--epmware-dark-blue);
+  font-weight: 500;
+  border-bottom: 3px solid var(--epmware-orange);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Custom grid cards for homepage */
+.md-typeset .grid.cards > ul > li {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--epmware-blue);
+  box-shadow: 0 8px 16px rgba(25, 118, 210, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Add colored accent bar to card tops */
+.md-typeset .grid.cards > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--epmware-blue), var(--epmware-orange));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover::before {
+  transform: scaleX(1);
+}
+
+/* Icon styling in cards */
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards .material-icons {
+  font-size: 3em;
+  color: var(--epmware-blue);
+  margin-bottom: 0.5rem;
+}
+
+/* Primary button styling */
+.md-button--primary {
+  background-color: var(--epmware-blue);
+  border-color: var(--epmware-blue);
+  color: white !important;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.md-button--primary:hover {
+  background-color: var(--epmware-orange);
+  border-color: var(--epmware-orange);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom admonitions */
+.md-typeset .admonition.note {
+  border-color: var(--epmware-blue);
+}
+
+.md-typeset .admonition.note > .admonition-title {
+  background-color: var(--epmware-light-blue);
+  border-color: var(--epmware-blue);
+}
+
+.md-typeset .admonition.info {
+  border-color: var(--epmware-orange);
+}
+
+.md-typeset .admonition.info > .admonition-title {
+  background-color: var(--epmware-light-orange);
+  border-color: var(--epmware-orange);
+  color: var(--epmware-dark-blue);
+}
+
+/* Documentation link badges */
+.doc-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: 500;
+  margin: 0.2em;
+}
+
+.doc-badge.admin {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.doc-badge.user {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.doc-badge.developer {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* Section dividers */
+.md-typeset h2 {
+  color: var(--epmware-dark-blue);
+  border-left: 4px solid var(--epmware-orange);
+  padding-left: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Quick links section */
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.quick-link-card {
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.quick-link-card:hover {
+  border-color: var(--epmware-blue);
+  background-color: var(--epmware-light-blue);
+}
+
+/* Topic lists */
+.md-typeset ul li a {
+  color: var(--epmware-blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.md-typeset ul li a:hover {
+  color: var(--epmware-orange);
+  text-decoration: underline;
+}
+
+/* Footer enhancement */
+.md-footer {
+  background-color: var(--epmware-dark-blue);
+}
+
+.md-footer-meta {
+  background-color: var(--epmware-dark-blue);
+}
+
+/* Search highlighting */
+.md-search-result mark {
+  background-color: var(--epmware-orange);
+  color: white;
+  padding: 0.1em 0.2em;
+}
+
+/* Navigation current item */
+.md-nav__item--active > .md-nav__link {
+  color: var(--epmware-orange);
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .md-typeset .grid.cards > ul > li {
+    margin-bottom: 1rem;
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.8rem;
+  }
+  
+  .md-typeset .grid.cards .twemoji,
+  .md-typeset .grid.cards .material-icons {
+    font-size: 2em;
+  }
+}
+
+/* Print styles */
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-tabs {
+    display: none !important;
+  }
+  
+  .md-main__inner {
+    margin: 0 !important;
+  }
+  
+  .md-content {
+    max-width: none !important;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add subtle animation to page load */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-content {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+/* Version badge styling */
+.version-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--epmware-blue), var(--epmware-orange));
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-left: 0.5em;
+}
+
+/* Documentation type indicators */
+.doc-type-indicator {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.3em 0.8em;
+  background-color: var(--epmware-orange);
+  color: white;
+  border-radius: 3px;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
