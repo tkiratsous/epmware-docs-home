@@ -58,11 +58,11 @@ Select the documentation that best fits your role and needs:
 - [System Requirements](https://admin-guide.epmware.com/installation/requirements/)
 - [Installation Guide](https://admin-guide.epmware.com/installation/)
 - [Quick Start Tutorial](https://user-guide.epmware.com/getting-started/)
-- [Basic Navigation](https://user-guide.epmware.com/navigation/)
+- [Basic Navigation](https://user-guide.epmware.com)
 
 ### Core Features
-- [Hierarchy Management](https://user-guide.epmware.com/hierarchies/)
-- [Property Management](https://user-guide.epmware.com/properties/)
+- [Hierarchy Management](https://user-guide.epmware.com/metadata-requests/)
+- [Property Management](https://admin-guide.epmware.com/configuration/member-properties/)
 - [Workflow Configuration](https://admin-guide.epmware.com/workflow/)
 - [Security Setup](https://admin-guide.epmware.com/security/)
 
@@ -75,7 +75,7 @@ Select the documentation that best fits your role and needs:
 ### Troubleshooting
 - [Common Issues](https://admin-guide.epmware.com/troubleshooting/)
 - [Error Messages](https://user-guide.epmware.com/troubleshooting/)
-- [Debug Logging](https://logic-builder-guide.epmware.com/appendices/)
+- [Debug Logging](https://logic-builder-guide.epmware.com/appendices/debugging/)
 
 ## What's New
 
@@ -99,7 +99,7 @@ Select the documentation that best fits your role and needs:
 
     Start with the User Guide to learn the basics of navigation and core functionality.
 
-    [:octicons-arrow-right-24: Start Learning](https://user-guide.epmware.com/getting-started/)
+    [:octicons-arrow-right-24: Start Learning](https://user-guide.epmware.com/)
 
 -   :material-cog:{ .lg .middle } **System Administrator?**
 
@@ -136,7 +136,7 @@ Select the documentation that best fits your role and needs:
 - Sample Scripts Repository
 
 ### Reference Documentation
-- [Glossary of Terms](https://user-guide.epmware.com/glossary/)
+- [Glossary of Terms](https://user-guide.epmware.com/reference/#field-glossary)
 - [Action Code Reference](https://logic-builder-guide.epmware.com/appendices/action-codes/)
 - [API Reference](https://logic-builder-guide.epmware.com/api/)
 - [Database Views](https://logic-builder-guide.epmware.com/api/database-views/)
