@@ -1,6 +1,6 @@
 # Documentation Guides
 
-EPMware provides comprehensive documentation across three main guides, each tailored for specific user roles and use cases.
+EPMware provides comprehensive documentation across four main guides, each tailored for specific user roles and use cases.
 
 ### :material-shield-account: Administrator's Guide
 
@@ -69,20 +69,46 @@ The Logic Builder Guide is designed for developers and technical users who need 
 
 [:octicons-link-external-16: Open Logic Builder Guide](https://logic-builder-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
 
+---
+
+### :material-server-network: Agent Installation Guide
+
+The Agent Installation Guide provides detailed instructions for installing and configuring EPMware On-Premise Agents to enable integration between EPMware Cloud and on-premise target applications.
+
+**Key Topics Covered:**
+- Agent architecture and requirements
+- Cygwin installation for Windows servers
+- Agent installation and configuration
+- REST API token management
+- Application-specific setup (HFM, Planning, PCMCS)
+- EPM Automate configuration
+- Scheduled task configuration
+- Troubleshooting and log analysis
+
+**Target Audience:**
+- Infrastructure Engineers
+- System Administrators
+- Integration Specialists
+- Cloud Architects
+
+[:octicons-link-external-16: Open Agent Installation Guide](https://agent-install-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
+
 ## Quick Navigation Matrix
 
-| Task | Administrator's Guide | User Guide | Logic Builder Guide |
-|------|----------------------|------------|-------------------|
-| Initial Setup | ✅ Primary | ✅ Reference | - |
-| User Management | ✅ Primary | - | - |
-| Hierarchy Operations | ✅ Setup | ✅ Primary | ✅ Automation |
-| Property Management | ✅ Configuration | ✅ Primary | ✅ Validation |
-| Workflow Configuration | ✅ Primary | ✅ Usage | ✅ Customization |
-| Custom Logic | - | - | ✅ Primary |
-| Reporting | ✅ Setup | ✅ Primary | - |
-| Troubleshooting | ✅ System | ✅ User Issues | ✅ Scripts |
-| API Integration | ✅ Configuration | - | ✅ Primary |
-| Security | ✅ Primary | ✅ Understanding | ✅ API Access |
+| Task | Administrator's Guide | User Guide | Logic Builder Guide | Agent Installation Guide |
+|------|----------------------|------------|-------------------|-------------------------|
+| Initial Setup | ✅ Primary | ✅ Reference | - | ✅ Integration |
+| User Management | ✅ Primary | - | - | - |
+| Hierarchy Operations | ✅ Setup | ✅ Primary | ✅ Automation | - |
+| Property Management | ✅ Configuration | ✅ Primary | ✅ Validation | - |
+| Workflow Configuration | ✅ Primary | ✅ Usage | ✅ Customization | - |
+| Custom Logic | - | - | ✅ Primary | - |
+| Reporting | ✅ Setup | ✅ Primary | - | - |
+| Troubleshooting | ✅ System | ✅ User Issues | ✅ Scripts | ✅ Agent Issues |
+| API Integration | ✅ Configuration | - | ✅ Primary | ✅ REST API |
+| Security | ✅ Primary | ✅ Understanding | ✅ API Access | ✅ Token Management |
+| Cloud Integration | ✅ Configuration | - | - | ✅ Primary |
+| On-Premise Setup | ✅ Reference | - | - | ✅ Primary |
 
 ## Learning Paths
 
@@ -103,6 +129,13 @@ The Logic Builder Guide is designed for developers and technical users who need 
 2. Understand the script structure and events
 3. Learn the API reference
 4. Practice with example scripts
+
+### For Integration Engineers
+1. Start with **Agent Installation Guide** - Prerequisites
+2. Install and configure the agent on target servers
+3. Set up application-specific configurations
+4. Configure scheduled tasks for continuous operation
+5. Test connectivity and monitor logs
 
 ## Documentation Standards
 
