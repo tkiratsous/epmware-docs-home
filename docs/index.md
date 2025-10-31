@@ -64,6 +64,20 @@ Select the documentation that best fits your role and needs:
 
     [:octicons-arrow-right-24: View Agent Installation Guide](https://agent-install-guide.epmware.com/){ .md-button .md-button--primary }
 
+-   :material-api:{ .lg .middle } **REST API Guide**
+
+    ---
+
+    Complete reference for EPMware's REST API, enabling programmatic access and automation.
+
+    - API authentication
+    - Endpoint reference
+    - Request/Response formats
+    - Integration examples
+    - Rate limiting & best practices
+
+    [:octicons-arrow-right-24: View REST API Guide](https://rest-api-guide.epmware.com/){ .md-button .md-button--primary }
+
 </div>
 
 ## Documentation by Topic
@@ -72,6 +86,7 @@ Select the documentation that best fits your role and needs:
 - [System Requirements](https://admin-guide.epmware.com/installation/requirements/)
 - [Installation Guide](https://admin-guide.epmware.com/installation/)
 - [Agent Installation](https://agent-install-guide.epmware.com/)
+- [API Setup](https://rest-api-guide.epmware.com/getting-started/)
 - [Quick Start Tutorial](https://user-guide.epmware.com/getting-started/)
 - [Basic Navigation](https://user-guide.epmware.com)
 
@@ -82,14 +97,16 @@ Select the documentation that best fits your role and needs:
 - [Security Setup](https://admin-guide.epmware.com/security/)
 
 ### Integration & Connectivity
+- [REST API Integration](https://rest-api-guide.epmware.com/)
 - [On-Premise Agent Setup](https://agent-install-guide.epmware.com/)
 - [Cloud Integration](https://admin-guide.epmware.com/configuration/applications/)
 - [EPM Automate Configuration](https://agent-install-guide.epmware.com/#configure-epm-automate-on-agent-server)
-- [REST API Token Management](https://agent-install-guide.epmware.com/#rest-api-token)
+- [API Token Management](https://rest-api-guide.epmware.com/authentication/)
 
 ### Advanced Topics
 - [Custom Logic Scripts](https://logic-builder-guide.epmware.com/getting-started/)
 - [API Integration](https://logic-builder-guide.epmware.com/api/)
+- [REST API Automation](https://rest-api-guide.epmware.com/automation/)
 - [ERP Integration](https://logic-builder-guide.epmware.com/events/erp-interface/)
 - [Multi-Environment Deployment](https://admin-guide.epmware.com/configuration/infrastructure/)
 - [Performance Tuning](https://admin-guide.epmware.com/maintenance/performance/)
@@ -98,12 +115,14 @@ Select the documentation that best fits your role and needs:
 - [Hyperion HFM Setup](https://agent-install-guide.epmware.com/#hyperion-hfm)
 - [Hyperion Planning Configuration](https://agent-install-guide.epmware.com/#hyperion-planning)
 - [PCMCS Integration](https://agent-install-guide.epmware.com/#pcmcs)
+- [API Application Access](https://rest-api-guide.epmware.com/applications/)
 
 ### Troubleshooting
 - [Common Issues](https://admin-guide.epmware.com/troubleshooting/)
 - [Error Messages](https://user-guide.epmware.com/troubleshooting/)
 - [Debug Logging](https://logic-builder-guide.epmware.com/appendices/debugging/)
 - [Agent Troubleshooting](https://agent-install-guide.epmware.com/#agent-troubleshooting)
+- [API Error Codes](https://rest-api-guide.epmware.com/errors/)
 - [Agent Logs](https://agent-install-guide.epmware.com/#agent-logs)
 
 ## What's New
@@ -113,6 +132,7 @@ Select the documentation that best fits your role and needs:
       - Enhanced Logic Builder capabilities
       - Improved workflow automation
       - New API endpoints
+      - Extended REST API functionality
     - **Agent Version 1.7** - November 2023
       - Updated EPM Automate integration
       - Enhanced cloud connectivity
@@ -122,6 +142,7 @@ Select the documentation that best fits your role and needs:
       - Added new troubleshooting sections
       - Updated API reference
       - Enhanced Agent Installation Guide
+      - Expanded REST API documentation
 
 ## Choose Your Path
 
@@ -159,6 +180,14 @@ Select the documentation that best fits your role and needs:
 
     [:octicons-arrow-right-24: Install Agent](https://agent-install-guide.epmware.com/)
 
+-   :material-webhook:{ .lg .middle } **Building Automation?**
+
+    ---
+
+    Use the REST API to automate EPMware operations and integrate with external systems.
+
+    [:octicons-arrow-right-24: Explore API](https://rest-api-guide.epmware.com/)
+
 -   :material-help-circle:{ .lg .middle } **Need Help?**
 
     ---
@@ -177,11 +206,13 @@ Select the documentation that best fits your role and needs:
 - Best Practices Guide
 - Sample Scripts Repository
 - Agent Configuration Examples
+- API Code Samples
 
 ### Reference Documentation
 - [Glossary of Terms](https://user-guide.epmware.com/reference/#field-glossary)
 - [Action Code Reference](https://logic-builder-guide.epmware.com/appendices/action-codes/)
 - [API Reference](https://logic-builder-guide.epmware.com/api/)
+- [REST API Endpoints](https://rest-api-guide.epmware.com/endpoints/)
 - [Database Views](https://logic-builder-guide.epmware.com/api/database-views/)
 - [Agent Properties Reference](https://agent-install-guide.epmware.com/#agent-properties)
 
@@ -189,6 +220,7 @@ Select the documentation that best fits your role and needs:
 - [Hardware Requirements](https://agent-install-guide.epmware.com/#hardware-and-software-requirements)
 - [Cygwin Installation](https://agent-install-guide.epmware.com/#install-cygwin)
 - [Agent Service Configuration](https://agent-install-guide.epmware.com/#agent-service-file)
+- [API Authentication](https://rest-api-guide.epmware.com/authentication/)
 - [Windows Scheduled Task Setup](https://agent-install-guide.epmware.com/#schedule-agent-on-windows-servers)
 
 ## Support & Contact
