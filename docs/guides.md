@@ -1,6 +1,6 @@
 # Documentation Guides
 
-EPMware provides comprehensive documentation across four main guides, each tailored for specific user roles and use cases.
+EPMware provides comprehensive documentation across five main guides, each tailored for specific user roles and use cases.
 
 ### :material-shield-account: Administrator's Guide
 
@@ -93,22 +93,47 @@ The Agent Installation Guide provides detailed instructions for installing and c
 
 [:octicons-link-external-16: Open Agent Installation Guide](https://agent-install-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
 
+---
+
+### :material-api: REST API Guide
+
+The REST API Guide provides comprehensive documentation for EPMware's RESTful API, enabling developers to programmatically interact with EPMware and build custom integrations.
+
+**Key Topics Covered:**
+- API authentication and token management
+- Complete endpoint reference
+- Request/Response formats and examples
+- Data models and schemas
+- Pagination and filtering
+- Rate limiting and best practices
+- Error handling and status codes
+- Integration patterns and use cases
+
+**Target Audience:**
+- API Developers
+- Integration Engineers
+- DevOps Teams
+- Automation Specialists
+
+[:octicons-link-external-16: Open REST API Guide](https://rest-api-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
+
 ## Quick Navigation Matrix
 
-| Task | Administrator's Guide | User Guide | Logic Builder Guide | Agent Installation Guide |
-|------|----------------------|------------|-------------------|-------------------------|
-| Initial Setup | ✅ Primary | ✅ Reference | - | ✅ Integration |
-| User Management | ✅ Primary | - | - | - |
-| Hierarchy Operations | ✅ Setup | ✅ Primary | ✅ Automation | - |
-| Property Management | ✅ Configuration | ✅ Primary | ✅ Validation | - |
-| Workflow Configuration | ✅ Primary | ✅ Usage | ✅ Customization | - |
-| Custom Logic | - | - | ✅ Primary | - |
-| Reporting | ✅ Setup | ✅ Primary | - | - |
-| Troubleshooting | ✅ System | ✅ User Issues | ✅ Scripts | ✅ Agent Issues |
-| API Integration | ✅ Configuration | - | ✅ Primary | ✅ REST API |
-| Security | ✅ Primary | ✅ Understanding | ✅ API Access | ✅ Token Management |
-| Cloud Integration | ✅ Configuration | - | - | ✅ Primary |
-| On-Premise Setup | ✅ Reference | - | - | ✅ Primary |
+| Task | Administrator's Guide | User Guide | Logic Builder Guide | Agent Installation Guide | REST API Guide |
+|------|----------------------|------------|-------------------|-------------------------|----------------|
+| Initial Setup | ✅ Primary | ✅ Reference | - | ✅ Integration | ✅ API Setup |
+| User Management | ✅ Primary | - | - | - | ✅ API Calls |
+| Hierarchy Operations | ✅ Setup | ✅ Primary | ✅ Automation | - | ✅ API Endpoints |
+| Property Management | ✅ Configuration | ✅ Primary | ✅ Validation | - | ✅ API Operations |
+| Workflow Configuration | ✅ Primary | ✅ Usage | ✅ Customization | - | ✅ Automation |
+| Custom Logic | - | - | ✅ Primary | - | - |
+| Reporting | ✅ Setup | ✅ Primary | - | - | ✅ Data Retrieval |
+| Troubleshooting | ✅ System | ✅ User Issues | ✅ Scripts | ✅ Agent Issues | ✅ API Errors |
+| API Integration | ✅ Configuration | - | ✅ Primary | ✅ REST API | ✅ Primary |
+| Security | ✅ Primary | ✅ Understanding | ✅ API Access | ✅ Token Management | ✅ Authentication |
+| Cloud Integration | ✅ Configuration | - | - | ✅ Primary | ✅ Cloud APIs |
+| On-Premise Setup | ✅ Reference | - | - | ✅ Primary | - |
+| Automation | ✅ Scheduling | - | ✅ Scripts | - | ✅ Primary |
 
 ## Learning Paths
 
@@ -136,6 +161,14 @@ The Agent Installation Guide provides detailed instructions for installing and c
 3. Set up application-specific configurations
 4. Configure scheduled tasks for continuous operation
 5. Test connectivity and monitor logs
+
+### For API Developers
+1. Begin with **REST API Guide** - Authentication
+2. Understand the API architecture and endpoints
+3. Learn request/response formats
+4. Practice with API testing tools
+5. Implement error handling and retry logic
+6. Build automated integrations
 
 ## Documentation Standards
 
