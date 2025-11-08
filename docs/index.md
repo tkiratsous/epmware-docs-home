@@ -8,6 +8,20 @@ Select the documentation that best fits your role and needs:
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-launch:{ .lg .middle } **Quick Start Guide**
+
+    ---
+
+    Rapid deployment guide with high-level steps to create and configure your first EPMware application.
+
+    - Initial setup steps
+    - Application configuration
+    - Security basics
+    - Service activation
+    - Workflow creation
+
+    [:octicons-arrow-right-24: View Quick Start Guide](https://quick-start.epmware.com/){ .md-button .md-button--primary }
+
 -   :material-shield-account:{ .lg .middle } **Administrator's Guide**
 
     ---
@@ -78,23 +92,47 @@ Select the documentation that best fits your role and needs:
 
     [:octicons-arrow-right-24: View REST API Guide](https://rest-api-guide.epmware.com/){ .md-button .md-button--primary }
 
+-   :material-package-variant:{ .lg .middle } **On-Premise Installation Guide**
+
+    ---
+
+    Step-by-step guide for installing EPMware on-premise with complete database and application server setup.
+
+    - Database installation
+    - Prerequisites & requirements
+    - Application server setup
+    - Configuration procedures
+    - Application-specific tasks
+
+    [:octicons-arrow-right-24: View Installation Guide](https://install-guide.epmware.com/){ .md-button .md-button--primary }
+
 </div>
 
 ## Documentation by Topic
 
 ### Getting Started
-- [System Requirements](https://admin-guide.epmware.com/installation/requirements/)
-- [Installation Guide](https://admin-guide.epmware.com/installation/)
+- [Quick Setup Steps](https://quick-start.epmware.com/)
+- [System Requirements](https://install-guide.epmware.com/requirements/)
+- [Database Installation](https://install-guide.epmware.com/database-installation/)
 - [Agent Installation](https://agent-install-guide.epmware.com/)
 - [API Setup](https://rest-api-guide.epmware.com/getting-started/)
-- [Quick Start Tutorial](https://user-guide.epmware.com/getting-started/)
 - [Basic Navigation](https://user-guide.epmware.com)
+- [Installation Guide](https://admin-guide.epmware.com/installation/)
 
 ### Core Features
 - [Hierarchy Management](https://user-guide.epmware.com/metadata-requests/)
 - [Property Management](https://admin-guide.epmware.com/configuration/member-properties/)
 - [Workflow Configuration](https://admin-guide.epmware.com/workflow/)
 - [Security Setup](https://admin-guide.epmware.com/security/)
+
+### Installation & Setup
+- [Quick Start Steps](https://quick-start.epmware.com/)
+- [Database Setup](https://install-guide.epmware.com/database-installation/)
+- [Apache Tomcat Configuration](https://install-guide.epmware.com/tomcat-installation/)
+- [EPMware Application Deployment](https://install-guide.epmware.com/application-installation/)
+- [JDBC Configuration](https://install-guide.epmware.com/jdbc-setup/)
+- [Password File Generation](https://install-guide.epmware.com/password-file/)
+- [On-Premise Installation](https://install-guide.epmware.com/)
 
 ### Integration & Connectivity
 - [REST API Integration](https://rest-api-guide.epmware.com/)
@@ -112,12 +150,13 @@ Select the documentation that best fits your role and needs:
 - [Performance Tuning](https://admin-guide.epmware.com/maintenance/performance/)
 
 ### Application-Specific Configuration
-- [Hyperion HFM Setup](https://agent-install-guide.epmware.com/#hyperion-hfm)
-- [Hyperion Planning Configuration](https://agent-install-guide.epmware.com/#hyperion-planning)
-- [PCMCS Integration](https://agent-install-guide.epmware.com/#pcmcs)
+- [Hyperion HFM Setup](https://install-guide.epmware.com/hyperion-hfm/)
+- [Hyperion Planning Configuration](https://install-guide.epmware.com/hyperion-planning/)
+- [PCMCS Integration](https://install-guide.epmware.com/pcmcs/)
 - [API Application Access](https://rest-api-guide.epmware.com/applications/)
 
 ### Troubleshooting
+- [Installation Issues](https://install-guide.epmware.com/troubleshooting/)
 - [Common Issues](https://admin-guide.epmware.com/troubleshooting/)
 - [Error Messages](https://user-guide.epmware.com/troubleshooting/)
 - [Debug Logging](https://logic-builder-guide.epmware.com/appendices/debugging/)
@@ -128,6 +167,10 @@ Select the documentation that best fits your role and needs:
 ## What's New
 
 !!! info "Latest Updates"
+    - **Quick Start Guide v2.6** - November 2020
+      - Updated configuration procedures
+      - Enhanced workflow creation steps
+      - Improved deployment guidance
     - **Version 2.9** - September 2025
       - Enhanced Logic Builder capabilities
       - Improved workflow automation
@@ -143,6 +186,11 @@ Select the documentation that best fits your role and needs:
       - Updated API reference
       - Enhanced Agent Installation Guide
       - Expanded REST API documentation
+    - **On-Premise Installation Guide v6.6** - October 2022
+      - Updated database requirements
+      - Oracle 12.x+ support
+      - Enhanced PCMCS integration
+      - Improved Windows Server 2016+ support
 
 ## Choose Your Path
 
@@ -152,9 +200,9 @@ Select the documentation that best fits your role and needs:
 
     ---
 
-    Start with the User Guide to learn the basics of navigation and core functionality.
+    Start with the Quick Start Guide for rapid deployment or the User Guide for comprehensive learning.
 
-    [:octicons-arrow-right-24: Start Learning](https://user-guide.epmware.com/)
+    [:octicons-arrow-right-24: Quick Start](https://quick-start.epmware.com/) | [:octicons-arrow-right-24: User Guide](https://user-guide.epmware.com/)
 
 -   :material-cog:{ .lg .middle } **System Administrator?**
 
@@ -196,6 +244,14 @@ Select the documentation that best fits your role and needs:
 
     [:octicons-arrow-right-24: Get Support](support.md)
 
+-   :material-server:{ .lg .middle } **Setting up On-Premise?**
+
+    ---
+
+    Complete guide for on-premise EPMware installation.
+
+    [:octicons-arrow-right-24: Install On-Premise](https://install-guide.epmware.com/)
+
 </div>
 
 ## Resources
@@ -207,6 +263,7 @@ Select the documentation that best fits your role and needs:
 - Sample Scripts Repository
 - Agent Configuration Examples
 - API Code Samples
+- Installation Walkthroughs
 
 ### Reference Documentation
 - [Glossary of Terms](https://user-guide.epmware.com/reference/#field-glossary)
@@ -215,10 +272,14 @@ Select the documentation that best fits your role and needs:
 - [REST API Endpoints](https://rest-api-guide.epmware.com/endpoints/)
 - [Database Views](https://logic-builder-guide.epmware.com/api/database-views/)
 - [Agent Properties Reference](https://agent-install-guide.epmware.com/#agent-properties)
+- [Installation Prerequisites](https://install-guide.epmware.com/prerequisites/)
 
 ### Quick Links
-- [Hardware Requirements](https://agent-install-guide.epmware.com/#hardware-and-software-requirements)
-- [Cygwin Installation](https://agent-install-guide.epmware.com/#install-cygwin)
+- [Quick Start Guide](https://quick-start.epmware.com/)
+- [Hardware Requirements](https://install-guide.epmware.com/hardware-requirements/)
+- [Database Installation Steps](https://install-guide.epmware.com/database-installation/)
+- [Cygwin Installation](https://install-guide.epmware.com/cygwin/)
+- [Apache Tomcat Setup](https://install-guide.epmware.com/tomcat/)
 - [Agent Service Configuration](https://agent-install-guide.epmware.com/#agent-service-file)
 - [API Authentication](https://rest-api-guide.epmware.com/authentication/)
 - [Windows Scheduled Task Setup](https://agent-install-guide.epmware.com/#schedule-agent-on-windows-servers)

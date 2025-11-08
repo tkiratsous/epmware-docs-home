@@ -1,13 +1,36 @@
 # Documentation Guides
 
-EPMware provides comprehensive documentation across five main guides, each tailored for specific user roles and use cases.
+EPMware provides comprehensive documentation across seven main guides, each tailored for specific user roles and use cases.
+
+### :material-rocket-launch: Quick Start Guide
+
+The Quick Start Guide provides high-level steps to rapidly deploy and configure your first EPMware application, perfect for getting started quickly.
+
+**Key Topics Covered:**
+- Adding target application servers
+- Creating EPMware applications
+- Changing default Admin user security
+- Updating global settings (Email, Application, UDF)
+- Starting essential services
+- Creating workflows
+- Creating deployments
+
+**Target Audience:**
+- New EPMware Users
+- System Administrators (Initial Setup)
+- POC/Trial Users
+- Teams needing rapid deployment
+
+[:octicons-link-external-16: Open Quick Start Guide](https://quick-start.epmware.com/){ .md-button .md-button--primary target="_blank" }
+
+---
 
 ### :material-shield-account: Administrator's Guide
 
-The Administrator's Guide is essential for system administrators responsible for EPMware installation, configuration, and maintenance.
+The Administrator's Guide is essential for system administrators responsible for EPMware configuration, management, and maintenance.
 
 **Key Topics Covered:**
-- System installation and configuration
+- System configuration
 - Security setup and user management
 - Application and dimension configuration
 - Workflow administration
@@ -117,37 +140,83 @@ The REST API Guide provides comprehensive documentation for EPMware's RESTful AP
 
 [:octicons-link-external-16: Open REST API Guide](https://rest-api-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
 
+---
+
+### :material-package-variant: On-Premise Installation Guide
+
+The On-Premise Installation Guide provides detailed instructions for installing EPMware components in your own data center, including database setup, application server configuration, and integration with target applications.
+
+**Key Topics Covered:**
+- Hardware and software requirements
+- Oracle database installation and configuration
+- Tablespace and schema creation
+- Database object installation
+- Apache Tomcat installation and configuration
+- EPMware application deployment
+- JDBC properties configuration
+- Application-specific tasks (HFM, Planning, PCMCS)
+- Cygwin installation for Windows servers
+- Environment variable configuration
+
+**Target Audience:**
+- Infrastructure Engineers
+- Database Administrators
+- System Administrators
+- IT Operations Teams
+
+[:octicons-link-external-16: Open On-Premise Installation Guide](https://install-guide.epmware.com/){ .md-button .md-button--primary target="_blank" }
+
 ## Quick Navigation Matrix
 
-| Task | Administrator's Guide | User Guide | Logic Builder Guide | Agent Installation Guide | REST API Guide |
-|------|----------------------|------------|-------------------|-------------------------|----------------|
-| Initial Setup | ✅ Primary | ✅ Reference | - | ✅ Integration | ✅ API Setup |
-| User Management | ✅ Primary | - | - | - | ✅ API Calls |
-| Hierarchy Operations | ✅ Setup | ✅ Primary | ✅ Automation | - | ✅ API Endpoints |
-| Property Management | ✅ Configuration | ✅ Primary | ✅ Validation | - | ✅ API Operations |
-| Workflow Configuration | ✅ Primary | ✅ Usage | ✅ Customization | - | ✅ Automation |
-| Custom Logic | - | - | ✅ Primary | - | - |
-| Reporting | ✅ Setup | ✅ Primary | - | - | ✅ Data Retrieval |
-| Troubleshooting | ✅ System | ✅ User Issues | ✅ Scripts | ✅ Agent Issues | ✅ API Errors |
-| API Integration | ✅ Configuration | - | ✅ Primary | ✅ REST API | ✅ Primary |
-| Security | ✅ Primary | ✅ Understanding | ✅ API Access | ✅ Token Management | ✅ Authentication |
-| Cloud Integration | ✅ Configuration | - | - | ✅ Primary | ✅ Cloud APIs |
-| On-Premise Setup | ✅ Reference | - | - | ✅ Primary | - |
-| Automation | ✅ Scheduling | - | ✅ Scripts | - | ✅ Primary |
+| Task | Quick Start | Administrator's Guide | User Guide | Logic Builder Guide | Agent Installation Guide | REST API Guide | On-Premise Install |
+|------|------------|----------------------|------------|-------------------|-------------------------|----------------|-------------------|
+| Initial Setup | ✅ Primary | ✅ Configuration | ✅ Reference | - | ✅ Agent Setup | ✅ API Setup | ✅ Detailed |
+| Database Setup | ✅ Overview | ✅ Reference | - | - | - | - | ✅ Primary |
+| Application Server | ✅ Overview | ✅ Configuration | - | - | - | - | ✅ Primary |
+| User Management | ✅ Basic | ✅ Primary | - | - | - | ✅ API Calls | - |
+| Hierarchy Operations | - | ✅ Setup | ✅ Primary | ✅ Automation | - | ✅ API Endpoints | - |
+| Property Management | - | ✅ Configuration | ✅ Primary | ✅ Validation | - | ✅ API Operations | - |
+| Workflow Configuration | ✅ Basic | ✅ Primary | ✅ Usage | ✅ Customization | - | ✅ Automation | - |
+| Custom Logic | - | - | - | ✅ Primary | - | - | - |
+| Reporting | - | ✅ Setup | ✅ Primary | - | - | ✅ Data Retrieval | - |
+| Troubleshooting | - | ✅ System | ✅ User Issues | ✅ Scripts | ✅ Agent Issues | ✅ API Errors | ✅ Installation |
+| API Integration | - | ✅ Configuration | - | ✅ Primary | ✅ REST API | ✅ Primary | - |
+| Security | ✅ Basic | ✅ Primary | ✅ Understanding | ✅ API Access | ✅ Token Management | ✅ Authentication | ✅ DB Security |
+| Cloud Integration | - | ✅ Configuration | - | - | ✅ Primary | ✅ Cloud APIs | - |
+| On-Premise Setup | - | ✅ Reference | - | - | ✅ Agent Setup | - | ✅ Primary |
+| Automation | - | ✅ Scheduling | - | ✅ Scripts | - | ✅ Primary | - |
 
 ## Learning Paths
 
+### For Quick Start Users
+1. Start with the **Quick Start Guide** - Overview
+2. Add target application server
+3. Create your first EPMware application
+4. Configure basic security
+5. Start essential services
+6. Create your first workflow
+
+### For Infrastructure Teams
+1. Start with the **On-Premise Installation Guide** - Prerequisites
+2. Install and configure Oracle database
+3. Set up Apache Tomcat application server
+4. Deploy EPMware application
+5. Configure application-specific integrations
+
 ### For New Users
-1. Start with the **User Guide** - Getting Started section
-2. Learn basic navigation and hierarchy management
-3. Practice with property management
-4. Understand the request and workflow process
+1. Optionally review the **Quick Start Guide** for rapid overview
+2. Start with the **User Guide** - Getting Started section
+3. Learn basic navigation and hierarchy management
+4. Practice with property management
+5. Understand the request and workflow process
 
 ### For Administrators
-1. Begin with **Administrator's Guide** - Installation
-2. Configure security and user access
-3. Set up applications and dimensions
-4. Learn maintenance procedures
+1. Complete **Quick Start Guide** for initial setup
+2. Complete **On-Premise Installation** if applicable
+3. Review **Administrator's Guide** - Configuration
+4. Configure security and user access
+5. Set up applications and dimensions
+6. Learn maintenance procedures
 
 ### For Developers
 1. Review **Logic Builder Guide** - Getting Started
@@ -156,11 +225,12 @@ The REST API Guide provides comprehensive documentation for EPMware's RESTful AP
 4. Practice with example scripts
 
 ### For Integration Engineers
-1. Start with **Agent Installation Guide** - Prerequisites
-2. Install and configure the agent on target servers
-3. Set up application-specific configurations
-4. Configure scheduled tasks for continuous operation
-5. Test connectivity and monitor logs
+1. Install EPMware using **On-Premise Installation Guide**
+2. Follow **Agent Installation Guide** - Prerequisites
+3. Install and configure the agent on target servers
+4. Set up application-specific configurations
+5. Configure scheduled tasks for continuous operation
+6. Test connectivity and monitor logs
 
 ### For API Developers
 1. Begin with **REST API Guide** - Authentication
